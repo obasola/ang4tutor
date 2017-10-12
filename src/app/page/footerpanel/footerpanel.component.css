@@ -1,0 +1,21 @@
+html {
+		margin:0;
+		padding:0;
+		color:#000;
+		background:#6A9A1F;
+	}
+#footer {
+		clear:both;
+		padding:5px 10px;
+		background:#222930;
+		color: #F5F4EB;
+		font-weight:bold;
+	}
+	#footer p {
+		margin:0;
+		text-align: center;
+    }
+    	
+	* html #footer {
+		height:1px;
+	}

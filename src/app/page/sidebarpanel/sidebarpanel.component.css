@@ -1,0 +1,11 @@
+#sidebar {
+		float:right;
+		width:20%;
+		padding:10px;
+		background:#659DBD;
+		color: #FBEEC1;
+		font-weight: bolder;
+	}
+	a{
+		color: #66FCF1;
+	}
