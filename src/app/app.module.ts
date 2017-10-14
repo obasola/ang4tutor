@@ -1,3 +1,5 @@
+import { SuccessComponent } from './alerts/success/success.component';
+import { WarningComponent } from './alerts/warning/warning.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
@@ -9,6 +11,8 @@ import { MainpanelComponent } from './page/mainpanel/mainpanel.component';
 import { NavbarpanelComponent } from './page/navbarpanel/navbarpanel.component';
 import { SidebarpanelComponent } from './page/sidebarpanel/sidebarpanel.component';
 import { AccountsComponent } from './features/accounts/accounts.component';
+import { ServerComponent } from './server/server.component';
+import { FormsModule } from '@angular/forms';
 
 export const ROUTES: Routes = [];
 
@@ -20,10 +24,14 @@ export const ROUTES: Routes = [];
     SidebarpanelComponent,
     MainpanelComponent,
     NavbarpanelComponent,
-    AccountsComponent
+    AccountsComponent,
+    ServerComponent,
+    WarningComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
