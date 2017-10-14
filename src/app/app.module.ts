@@ -8,6 +8,7 @@ import { HeaderpanelComponent } from './page/headerpanel/headerpanel.component';
 import { MainpanelComponent } from './page/mainpanel/mainpanel.component';
 import { NavbarpanelComponent } from './page/navbarpanel/navbarpanel.component';
 import { SidebarpanelComponent } from './page/sidebarpanel/sidebarpanel.component';
+import { AccountsComponent } from './features/accounts/accounts.component';
 
 export const ROUTES: Routes = [];
 
@@ -18,7 +19,8 @@ export const ROUTES: Routes = [];
     FooterpanelComponent,
     SidebarpanelComponent,
     MainpanelComponent,
-    NavbarpanelComponent
+    NavbarpanelComponent,
+    AccountsComponent
   ],
   imports: [
     BrowserModule,
