@@ -13,6 +13,7 @@ import { SidebarpanelComponent } from './page/sidebarpanel/sidebarpanel.componen
 import { AccountsComponent } from './features/accounts/accounts.component';
 import { ServerComponent } from './server/server.component';
 import { FormsModule } from '@angular/forms';
+import { Lesson30Component } from './lessons/lesson30/lesson30.component';
 
 export const ROUTES: Routes = [];
 
@@ -27,7 +28,8 @@ export const ROUTES: Routes = [];
     AccountsComponent,
     ServerComponent,
     WarningComponent,
-    SuccessComponent
+    SuccessComponent,
+    Lesson30Component
   ],
   imports: [
     BrowserModule,

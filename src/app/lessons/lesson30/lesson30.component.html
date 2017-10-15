@@ -1,0 +1,13 @@
+<h3>Lesson 30 practice</h3>
+<div>
+<label>User:</label>
+<input type="text" [(ngModel)]="userName" >
+</div>
+<button class="btn btn-primary" [disabled]="!canEnableResetBtn()"
+	(click)="onResetClicked()">Reset</button>
+<br>
+{{userName}}
+<br>
+<p>
+The quick fox {{userName}} jump over the lazy dog and ran merrily on to Granny's house.
+</p>
