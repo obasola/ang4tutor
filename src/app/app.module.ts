@@ -14,6 +14,7 @@ import { AccountsComponent } from './features/accounts/accounts.component';
 import { ServerComponent } from './server/server.component';
 import { FormsModule } from '@angular/forms';
 import { Lesson30Component } from './lessons/lesson30/lesson30.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 export const ROUTES: Routes = [];
 

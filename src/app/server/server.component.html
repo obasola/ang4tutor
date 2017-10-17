@@ -11,3 +11,6 @@
 
 <p>{{serverCreationStatus}}</p>
 <h3>Server with ID {{serverId}} is {{getServerStatus()}}</h3>
+
+<h3>Servers available</h3>
+<p *ngFor="let server of servers">{{server.name}} {{server.version}}</p>

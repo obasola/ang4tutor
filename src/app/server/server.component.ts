@@ -10,6 +10,12 @@ export class ServerComponent implements OnInit {
   serverId = 10;
   serverStatus = 'offline';
   serverName = '';
+  servers = [
+    {name: 'Tomcat Server', version: '7.0'},
+    {name: 'Glassfish Server', version: '4.1'},
+    {name: 'JBoss Server', version: '7.1'},
+    {name: 'Node Server', version: '4.6.1'}
+  ];
 
   constructor() {
     setTimeout(() => {

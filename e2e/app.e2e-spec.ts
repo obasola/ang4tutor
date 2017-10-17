@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('formsdemo App', () => {
+describe('ang4tutor App', () => {
   let page: AppPage;
 
   beforeEach(() => {
