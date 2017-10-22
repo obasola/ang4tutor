@@ -1,0 +1,16 @@
+<div>
+	<h3>Directives</h3>
+	<p>
+		<button class="btn btn-primary" (click)="onButtonClick()">Display
+			Details</button>
+	</p>
+
+	<div>
+	<p *ngIf="showSecret">Secret password is : tuna</p>
+		<div *ngFor="let logentry of log; let i = index"
+			[ngClass]="{'white-text': i >= 4}"
+			 [ngStyle]="{backgroundColor : i >= 4 ? 'blue' : 'transparent'}">
+			 click number {{logentry}}
+		</div>
+	</div>
+</div>

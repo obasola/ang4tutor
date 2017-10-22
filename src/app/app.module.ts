@@ -15,6 +15,7 @@ import { ServerComponent } from './server/server.component';
 import { FormsModule } from '@angular/forms';
 import { Lesson30Component } from './lessons/lesson30/lesson30.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { Lesson31Component } from './lessons/lesson31/lesson31.component';
 
 export const ROUTES: Routes = [];
 
@@ -30,7 +31,8 @@ export const ROUTES: Routes = [];
     ServerComponent,
     WarningComponent,
     SuccessComponent,
-    Lesson30Component
+    Lesson30Component,
+    Lesson31Component
   ],
   imports: [
     BrowserModule,
